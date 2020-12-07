@@ -16,9 +16,9 @@ export function HomePage() {
 						Développeuse FullStack <br />
 						React/Node.js
 					</h2>
-					<Link to="https://bit.ly/36JJmyi" className="button">
+					<a href="https://bit.ly/36JJmyi" className="button">
 						Me contacter
-					</Link>
+					</a>
 				</div>
 				<div className="home-sky">
 					<div className="shooting-star"></div>
