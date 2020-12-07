@@ -1,0 +1,50 @@
+.navigation {
+	background: var(--dark-color);
+	width: 60px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+}
+
+.nav-svg {
+	width: 25px;
+	margin-bottom: 30px;
+}
+
+.nav-icon {
+	fill: var(--light-color);
+}
+
+a:active .nav-icon,
+a:focus .nav-icon,
+a:hover .nav-icon {
+	fill: var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+	.navigation {
+		background: var(--dark-color);
+		width: 100%;
+		height: 60px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		z-index: 3;
+	}
+
+	.nav-svg {
+		width: 25px;
+		margin-bottom: 0px;
+		margin-left: 30px;
+	}
+}

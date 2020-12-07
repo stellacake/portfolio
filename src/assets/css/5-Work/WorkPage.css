@@ -1,0 +1,26 @@
+.workpage {
+	height: 100%;
+	padding-left: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.projects-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+	.workpage {
+		padding-left: 30px;
+		padding-top: 60px;
+		width: auto;
+		justify-content: flex-start;
+	}
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+}

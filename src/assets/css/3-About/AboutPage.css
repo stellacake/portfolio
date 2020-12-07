@@ -1,0 +1,151 @@
+.aboutpage {
+	padding-left: 60px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.swiper {
+	overflow: hidden;
+	position: relative;
+
+	height: 65px;
+	padding-top: 10px;
+	margin-top: -10px;
+}
+
+.swiper li {
+	padding: 0 10px;
+	height: 45px;
+	margin-bottom: 45px;
+	display: block;
+}
+
+.swipe-words {
+	padding-left: 0;
+	-webkit-animation: swipe-words 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+	animation: swipe-words 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@-webkit-keyframes swipe-words {
+	0% {
+		margin-top: -270px;
+	}
+	5% {
+		margin-top: -180px;
+	}
+	33% {
+		margin-top: -180px;
+	}
+	38% {
+		margin-top: -90px;
+	}
+	66% {
+		margin-top: -90px;
+	}
+	71% {
+		margin-top: 0px;
+	}
+	99.99% {
+		margin-top: 0px;
+	}
+	100% {
+		margin-top: -270px;
+	}
+}
+@keyframes swipe-words {
+	0% {
+		margin-top: -270px;
+	}
+	5% {
+		margin-top: -180px;
+	}
+	33% {
+		margin-top: -180px;
+	}
+	38% {
+		margin-top: -90px;
+	}
+	66% {
+		margin-top: -90px;
+	}
+	71% {
+		margin-top: 0px;
+	}
+	99.99% {
+		margin-top: 0px;
+	}
+	100% {
+		margin-top: -270px;
+	}
+}
+
+.about-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.about-pro,
+.about-perso {
+	width: 600px;
+}
+
+ul {
+	list-style: "_ ";
+}
+
+.about-perso-box {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.about-perso p {
+	display: block;
+	text-align: left;
+	margin-left: 15px;
+	height: auto;
+}
+.about-svg {
+	min-width: 50px;
+}
+
+.about-icon {
+	width: 50px;
+	fill: var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+	.aboutpage {
+		padding-left: 30px;
+		padding-top: 60px;
+		height: 100%;
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.about-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.about-pro,
+	.about-perso {
+		width: 300px;
+	}
+	.linkedin {
+		text-align: center;
+		margin: 50px 0;
+	}
+	br.mobile-br {
+		border: 1px solid var(--main-color);
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	br.mobile-br {
+		display: none;
+	}
+}
