@@ -31,7 +31,7 @@ export function WorkPage() {
 			description: "Création d'un site vitrine avec formulaire",
 			tools: "HTML5, CSS3, Vanilla JS",
 			img: `${puntacana}`,
-			url: "",
+			url: "https://stellacake.github.io/punta-cana-bar/",
 		},
 	];
 	return (
