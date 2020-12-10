@@ -1,6 +1,6 @@
 .homepage {
-	padding-left: 60px;
-	height: 100%;
+	padding-left: 120px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -212,7 +212,7 @@
 	.homepage {
 		padding-left: 30px;
 		padding-top: 60px;
-		height: 100%;
+		height: auto;
 		width: auto;
 		display: flex;
 		flex-direction: column;

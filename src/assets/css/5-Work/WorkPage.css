@@ -1,6 +1,6 @@
 .workpage {
-	height: 100%;
-	padding-left: 60px;
+	padding-left: 120px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -9,6 +9,7 @@
 .projects-container {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,6 +18,7 @@
 		padding-top: 60px;
 		width: auto;
 		justify-content: flex-start;
+		align-items: flex-start;
 	}
 	.projects-container {
 		display: flex;

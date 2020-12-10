@@ -1,6 +1,6 @@
 .aboutpage {
-	padding-left: 60px;
-	height: 100%;
+	padding-left: 120px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -9,7 +9,6 @@
 .swiper {
 	overflow: hidden;
 	position: relative;
-
 	height: 65px;
 	padding-top: 10px;
 	margin-top: -10px;
@@ -119,7 +118,6 @@ ul {
 	.aboutpage {
 		padding-left: 30px;
 		padding-top: 60px;
-		height: 100%;
 		width: auto;
 		display: flex;
 		flex-direction: column;
