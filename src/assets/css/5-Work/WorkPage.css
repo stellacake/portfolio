@@ -12,7 +12,7 @@
 	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 	.workpage {
 		padding-left: 30px;
 		padding-top: 60px;
@@ -20,9 +20,9 @@
 		justify-content: flex-start;
 		align-items: flex-start;
 	}
-	.projects-container {
+	/* .projects-container {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-	}
+	} */
 }

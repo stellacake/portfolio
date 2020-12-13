@@ -27,7 +27,7 @@ a:hover .nav-icon {
 	fill: var(--main-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 	.navigation {
 		background: var(--dark-color);
 		width: 100%;

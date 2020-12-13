@@ -30,7 +30,7 @@
 	align-self: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 	.skillspage {
 		padding-left: 30px;
 		padding-top: 60px;
